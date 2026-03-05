@@ -1,6 +1,6 @@
 # Netflix Data Analysis
 
-i picked up the netflix dataset from kaggle and used it to practice SQL. went through the data and tried to answer some questions i was curious about — stuff like which countries produce the most content, what ratings are most common, and how netflix's library has grown over the years.
+i picked up the netflix dataset from kaggle and used it to practice SQL and Power BI. went through the data and tried to answer some questions i was curious about — stuff like which countries produce the most content, what ratings are most common, and how netflix's library has grown over the years.
 
 ---
 
@@ -15,7 +15,7 @@ around 8,800 titles with info like type, country, director, rating, duration, ge
 ## tools
 
 - MySQL Workbench
-- Power BI (dashboard coming soon)
+- Power BI Desktop
 
 ---
 
@@ -41,20 +41,35 @@ around 8,800 titles with info like type, country, director, rating, duration, ge
 
 ## what i found
 
-- netflix has way more movies than tv shows, roughly 70/30 split
-- the US has the most content by far
-- TV-MA is the most common rating
-- 2019-2020 was when netflix added the most titles
+- netflix has way more movies than tv shows — 69.62% movies vs 30.38% tv shows (6.13K vs 2.68K)
+- the US dominates with 2.8K titles, followed by India (1.0K) and the UK (0.4K)
+- content additions exploded around 2015 and peaked around 2019-2020
+- the 2010s had by far the most releases — 4.2K movies and 1.7K tv shows that decade
+- Raul Campos Jr. is the most featured director on netflix
 - had some dirty data — a few rows had duration values sitting in the rating column, filtered those out
+
+---
+
+## dashboard
+
+built a one page dashboard in power bi covering:
+
+- total titles, movies and tv shows cards (8.797K total, 6K movies, 3K tv shows)
+- line chart showing how titles added grew over the years
+- donut chart showing the movies vs tv shows split
+- bar chart of top 10 countries by total titles
+- stacked bar chart of titles by decade split by type
+- top directors by total shows and movies
+- year slicer to filter the whole dashboard by year range
 
 ---
 
 ## files
 
 ```
-├── netflix.sql          # all the queries
-├── netflix_data.csv     # cleaned csv i used to import
-├── netflix_dashboard.pbix   # power bi dashboard (coming soon)
+├── netflix.sql              # all the queries
+├── netflix_data.csv         # cleaned csv i used to import
+├── netflix.pbix   # power bi dashboard
 └── README.md
 ```
 
@@ -65,3 +80,4 @@ around 8,800 titles with info like type, country, director, rating, duration, ge
 1. import `netflix_data.csv` into mysql using the table data import wizard
 2. open `netflix.sql` in mysql workbench
 3. run the queries
+4. open `netflix_dashboard.pbix` in power bi desktop to view the dashboard
