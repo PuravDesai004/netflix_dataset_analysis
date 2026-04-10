@@ -51,14 +51,14 @@ However, TV show additions accelerated significantly post-2015, suggesting a str
 shift toward episodic content to improve viewer retention.
 
 ### 2. US and India account for nearly half of all content
-The US contributes 2,800 titles and India 1,000 — together nearly 44% of the entire
+The US contributes 2,800 titles and India 1,000 together nearly 44% of the entire
 catalog. The UK is a distant third at 400 titles, showing how concentrated Netflix's
 content sourcing is geographically.
 
 ### 3. Catalog growth peaked in 2019-2020 then slowed
 Titles added per year grew rapidly from 2015 to 2019, then declined. The 2010s had
-by far the most releases — 4,200 movies and 1,700 TV shows that decade. The slowdown
-likely reflects COVID-19 production disruptions and Netflix's shift from volume to
+by far the most releases 4,200 movies and 1,700 TV shows that decade. The slowdown
+likely reflects COVID 19 production disruptions and Netflix's shift from volume to
 quality in content acquisition.
 
 ---
