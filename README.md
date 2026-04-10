@@ -108,4 +108,4 @@ Purav Desai
 B.Tech IT — Semester 6 | SCET, Surat
 
 GitHub: [PuravDesai004](https://github.com/PuravDesai004)
-LinkedIn: [your linkedin url here]
+LinkedIn: [www.linkedin.com/in/puravdesai41]
