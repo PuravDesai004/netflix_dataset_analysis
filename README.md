@@ -33,6 +33,7 @@ and when each title was added to Netflix.
 ## Dashboard Overview
 
 Single page dashboard covering:
+
 - Total titles, movies, and TV shows KPI cards (8,797 total / 6K movies / 3K TV shows)
 - Line chart showing catalog growth over the years
 - Donut chart showing movies vs TV shows split
@@ -41,14 +42,18 @@ Single page dashboard covering:
 - Top directors by total titles
 - Year slicer to filter the full dashboard
 
+The bundled CSV contains 8,807 rows (6,131 movies and 2,676 TV shows). The
+ten-row difference from the dashboard total has not been explained; the
+dashboard filters and source need verification.
+
 ---
 
 ## Key Findings
 
 ### 1. Movies dominate but TV shows are growing
 69.62% of Netflix's catalog is movies (6,131 titles) vs 30.38% TV shows (2,676 titles).
-However, TV show additions accelerated significantly post-2015, suggesting a strategic
-shift toward episodic content to improve viewer retention.
+TV show additions accelerated after 2015. This dataset does not establish
+Netflix's strategy or the effect on viewer retention.
 
 ### 2. US and India account for nearly half of all content
 The US contributes 2,800 titles and India 1,000 together nearly 44% of the entire
@@ -57,9 +62,8 @@ content sourcing is geographically.
 
 ### 3. Catalog growth peaked in 2019-2020 then slowed
 Titles added per year grew rapidly from 2015 to 2019, then declined. The 2010s had
-by far the most releases 4,200 movies and 1,700 TV shows that decade. The slowdown
-likely reflects COVID 19 production disruptions and Netflix's shift from volume to
-quality in content acquisition.
+by far the most releases 4,200 movies and 1,700 TV shows that decade. The dataset
+does not establish the cause of the slowdown.
 
 ---
 
